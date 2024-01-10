@@ -8,7 +8,7 @@
             no-currency
             v-bind="$attrs"
         />
-        <span v-if="!noCurrency"> FTM</span>
+        <span v-if="!noCurrency"> XN</span>
     </span>
 </template>
 
@@ -30,7 +30,7 @@ export default {
             type: Number,
             default: 2,
         },
-        /** Convert value to FTM */
+        /** Convert value to XN */
         convert: {
             type: Boolean,
             default: false,

@@ -2,7 +2,7 @@
     <FCard class="vaultbox">
         <h3 class="vaultbox_title">{{ title }}</h3>
         <p class="vaultbox_amount">
-            <span class="number">{{ cAmount }}</span> <span class="vaultbox_amount_currency">FTM</span>
+            <span class="number">{{ cAmount }}</span> <span class="vaultbox_amount_currency">XN</span>
         </p>
         <p class="vaultbox_amount_usd number" data-testid="amount_usd">
             <FTMTokenValue :value="cAmountUSD" with-price-currency no-currency :decimals="0" />
@@ -21,7 +21,7 @@ export default {
     components: {FCard, FTMTokenValue},
 
     props: {
-        /** FTM amount, 18 decimals, hex number. */
+        /** XN amount, 18 decimals, hex number. */
         amount: {
             type: String,
             default: '0x0',

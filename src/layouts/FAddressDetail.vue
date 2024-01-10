@@ -14,7 +14,7 @@
                     <div class="balance center-v">
                         <h3 class="h1">
                             <span v-show="cAccount">
-                                <f-t-m-token-value :value="cAccount ? cAccount.totalValue : 1" convert no-currency /> <span class="ftm">FTM</span>
+                                <f-t-m-token-value :value="cAccount ? cAccount.totalValue : 1" convert no-currency /> <span class="ftm">XN</span>
                             </span>
                         </h3>
                         <div v-show="cAccount" class="usd">
@@ -30,7 +30,7 @@
                     <div class="balance center-v">
                         <h3 class="h1">
                             <span v-show="'available' in cAssets">
-                                <f-t-m-token-value :value="cAssets.available" convert no-currency /> <span class="ftm">FTM</span>
+                                <f-t-m-token-value :value="cAssets.available" convert no-currency /> <span class="ftm">XN</span>
                             </span>
                         </h3>
                         <div v-show="'available' in cAssets" class="usd">
@@ -47,7 +47,7 @@
                                             <div class="row no-collapse">
                                                 <div class="col f-row-label">{{ $t('view_address_detail.available') }}</div>
                                                 <div class="col">
-                                                    <div v-show="'available' in cAssets">{{ toFTM(cAssets.available) }} FTM</div>
+                                                    <div v-show="'available' in cAssets">{{ toFTM(cAssets.available) }} XN</div>
                                                 </div>
                                             </div>
                     -->
@@ -74,7 +74,7 @@
                         <div class="col">
                             <div v-show="'claimed_rewards' in cAssets">
                                 -
-                                <!--{{ toFTM(cAssets.claimed_rewards, true) }} FTM-->
+                                <!--{{ toFTM(cAssets.claimed_rewards, true) }} XN-->
                             </div>
                         </div>
                     </div>
@@ -612,7 +612,7 @@
             },
 
             /**
-             * Convert value to FTM.
+             * Convert value to XN.
              *
              * @param {string|number} _value
              * @param {boolean} _isNumber Value is number.

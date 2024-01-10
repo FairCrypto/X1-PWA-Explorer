@@ -392,7 +392,7 @@
                     },
                     {
                         name: 'amount',
-                        label: `${this.$t('view_transaction_list.amount')} (FTM)`,
+                        label: `${this.$t('view_transaction_list.amount')} (XN)`,
                         itemProp: `${!this.withoutCursor ? 'transaction.' : ''}value`,
                         formatter: _value => {
                             // return formatNumberByLocale(numToFixed(WEIToFTM(_value), 2), 2)
@@ -406,7 +406,7 @@
 /*
                     {
                         name: 'fee',
-                        label: `${this.$t('view_transaction_list.fee')} (FTM)`,
+                        label: `${this.$t('view_transaction_list.fee')} (XN)`,
                         itemProp: 'gasUsed',
                         width: '130px'
                     }

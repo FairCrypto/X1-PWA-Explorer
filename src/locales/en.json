@@ -30,7 +30,7 @@
     "source_code": "Source Code",
     "copy_to_clipboard": "Copy {what} to clipboard",
     "copied_to_clipboard": "{what} copied to clipboard",
-    "copied_to_clipboard_warning": "Warning: Use this address to receive Opera FTM only. If you are receiving FTM-ERC20 you need to use a different address!",
+    "copied_to_clipboard_warning": "Warning: Use this address to receive X1 XN only. If you are receiving XN-ERC20 you need to use a different address!",
     "gas_used": "Gas Used",
     "hash": "Hash",
     "assets": "Assets",
@@ -74,7 +74,7 @@
             "title": "Contracts"
         },
         {
-            "url": "https://pwawallet.fantom.network/#/",
+            "url": "https://wallet.x1-testnet.infrafc.org/#/",
             "title": "Wallet"
         }
     ],
@@ -94,7 +94,7 @@
         "latest_blocks": "Latest Blocks",
         "latest_transactions": "Latest Transactions",
         "view_all_transactions": "All transactions",
-        "total_ftm_burned": "Total FTM Burned",
+        "total_ftm_burned": "Total XN Burned",
         "vault": "The Ecosystem Vault",
         "back_to_home": "@:back_to_home"
     },
@@ -141,7 +141,7 @@
         "asset": "@:asset",
         "balance": "Total Balance",
         "staking": "Staking",
-        "value_in_ftm": "Value in FTM",
+        "value_in_ftm": "Value in XN",
         "value_in_usd": "Value in USD",
         "available": "Available",
         "delegated": "Delegated",
@@ -182,9 +182,9 @@
         "address": "@:address",
         "poi": "Proof of Importance",
         "created_on": "@:created_on",
-        "self_staked": "Self-Staked (FTM)",
-        "delegated": "Delegated (FTM)",
-        "total_staked": "Total Staked (FTM)",
+        "self_staked": "Self-Staked (XN)",
+        "delegated": "Delegated (XN)",
+        "total_staked": "Total Staked (XN)",
         "link": "Link",
         "offline": "Offline",
         "unknown": "@:unknown",
@@ -245,7 +245,7 @@
         "address": "@:address",
         "created_on": "@:created_on",
         "created_epoch": "Created on Epoch",
-        "amount": "Amount (FTM)"
+        "amount": "Amount (XN)"
     },
     "view_contract_list": {
         "title": "Contracts",

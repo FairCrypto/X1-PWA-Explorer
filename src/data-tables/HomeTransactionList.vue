@@ -136,7 +136,7 @@ export default {
                 },
                 {
                     name: 'amount',
-                    label: `${this.$t('view_transaction_list.amount')} (FTM)`,
+                    label: `${this.$t('view_transaction_list.amount')} (XN)`,
                     itemProp: `${!this.withoutCursor ? 'transaction.' : ''}value`,
                     formatter: _value => {
                         return formatNumberByLocale(numToFixed(WEIToFTM(_value), 2), 2)

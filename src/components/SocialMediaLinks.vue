@@ -1,31 +1,31 @@
 <template>
     <ul class="socialmedialinks no-markers">
         <li>
-            <a href="https://twitter.com/FantomFDN" target="_blank" rel="nofollow" title="Fantom on Twitter">
+            <a href="https://twitter.com/XEN_Crypto" target="_blank" rel="nofollow" title="X1 on Twitter">
                 <icon data="@/assets/svg/social-media2/x.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Twitter</span>
             </a>
         </li>
         <li>
-            <a href="http://chat.fantom.network/" target="_blank" rel="nofollow" title="Fantom on Discord">
+            <a href="https://discord.com/invite/rcAhrKWJb6" target="_blank" rel="nofollow" title="X1 on Discord">
                 <icon data="@/assets/svg/social-media2/discord.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Discord</span>
             </a>
         </li>
         <li>
-            <a href="https://t.me/Fantom_English" target="_blank" rel="nofollow" title="Fantom on Telegram">
+            <a href="https://t.me/XENCryptoTalk" target="_blank" rel="nofollow" title="X1 on Telegram">
                 <icon data="@/assets/svg/social-media2/telegram.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Telegram</span>
             </a>
         </li>
         <li>
-            <a href="https://www.reddit.com/r/FantomFoundation/" target="_blank" rel="nofollow" title="Fantom on Reddit">
+            <a href="https://www.reddit.com/r/xencrypto/" target="_blank" rel="nofollow" title="X1 on Reddit">
                 <icon data="@/assets/svg/social-media2/reddit.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Reddit</span>
             </a>
         </li>
         <li>
-            <a href="https://github.com/Fantom-Foundation" target="_blank" rel="nofollow" title="Fantom on Github">
+            <a href="https://github.com/FairCrypto/" target="_blank" rel="nofollow" title="X1 on Github">
                 <icon data="@/assets/svg/social-media/github.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Github</span>
             </a>

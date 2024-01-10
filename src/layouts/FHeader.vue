@@ -3,7 +3,7 @@
         <div class="narrow-container">
             <div class="row no-collapse align-items-center">
                 <div class="col-2">
-                    <router-link to="/" class="logo" :aria-label="$t('view_home.back_to_home')"><img src="/fantom-logo.svg" alt="Fantom logo" class="not-fluid logo-white"><img src="/fantom-logo-blue.svg" alt="Fantom logo" class="not-fluid logo-blue"></router-link>
+                    <router-link to="/" class="logo" :aria-label="$t('view_home.back_to_home')"><img src="/x1_logo.svg" alt="X1 logo" class="not-fluid"></router-link>
                 </div>
                 <div class="col right-col">
                     <f-navigation
@@ -26,7 +26,7 @@
             <div class="footer">
                 <f-social-media-links></f-social-media-links>
                 <div class="copyright">
-                    <a href="https://fantom.foundation/" target="_blank" rel="nofollow">©2022 Fantom Foundation</a>
+                    <a href="https://xen.network/" target="_blank" rel="nofollow">©2024 Fair Crypto</a>
                 </div>
             </div>
         </div>

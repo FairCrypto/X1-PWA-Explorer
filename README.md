@@ -1,6 +1,6 @@
-# Fantom PWA Explorer
+# X1 PWA Explorer
 
-JavaScript and Vue based Fantom pwa explorer.
+JavaScript and Vue based X1 pwa explorer.
 
 We are using:
 * Node / NPM

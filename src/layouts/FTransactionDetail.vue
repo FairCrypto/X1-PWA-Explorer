@@ -43,12 +43,12 @@
                     </div>
                     <div class="row no-collapse">
                         <div class="col-4 f-row-label">{{ $t('view_transaction_detail.amount') }}</div>
-                        <div class="col"><div class="break-word" v-show="cTransaction">{{  WEIToFTM(cTransaction.value) }} FTM</div></div>
+                        <div class="col"><div class="break-word" v-show="cTransaction">{{  WEIToFTM(cTransaction.value) }} XN</div></div>
                     </div>
                     <!--
                                 <div class="row no-collapse">
                                     <div class="col-4 f-row-label">{{ $t('view_transaction_detail.fee') }}</div>
-                                    <div class="col"><div class="break-word" v-show="cTransaction">{{  WEIToFTM(cTransaction.fee) }} FTM</div></div>
+                                    <div class="col"><div class="break-word" v-show="cTransaction">{{  WEIToFTM(cTransaction.fee) }} XN</div></div>
                                 </div>
                     -->
                     <div class="row no-collapse">
@@ -79,7 +79,7 @@
                     </div>
                     <div class="row no-collapse">
                         <div class="col-4 f-row-label">{{ $t('view_transaction_detail.transaction_fee') }}</div>
-                        <div class="col"><div class="break-word" v-show="cTransaction">{{  cTransactionFee }} FTM</div></div>
+                        <div class="col"><div class="break-word" v-show="cTransaction">{{  cTransactionFee }} XN</div></div>
                     </div>
                     <div class="row no-collapse">
                         <div class="col-4 f-row-label">{{ $t('view_transaction_detail.input_data') }}</div>

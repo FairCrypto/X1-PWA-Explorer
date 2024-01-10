@@ -197,7 +197,7 @@ export default {
          * @param {DefiToken[]} _value
          */
         tokens(_value) {
-            // this.items = _value.filter((_item) => _item.isActive && _item.canDeposit && _item.symbol !== 'FTM');
+            // this.items = _value.filter((_item) => _item.isActive && _item.canDeposit && _item.symbol !== 'XN');
             this.prepareTokens(_value);
 
             this.items = _value.filter(

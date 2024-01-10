@@ -1,7 +1,7 @@
 <template>
     <div class="burnedftm">
         <FCard class="burnedftm_left">
-            <p class="burnedftm_amount number">{{ cTotalBurned }} <span class="burnedftm_ftm">FTM</span></p>
+            <p class="burnedftm_amount number">{{ cTotalBurned }} <span class="burnedftm_ftm">XN</span></p>
         </FCard>
 
         <template v-if="blocks.length > 0">

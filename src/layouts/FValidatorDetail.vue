@@ -60,7 +60,7 @@
                     <div class="col-4 f-row-label">{{ $t('view_validator_detail.amount_staked') }}</div>
                     <div class="col">
                         <div v-show="'stake' in cStaker">
-                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.stake), 0)) }} FTM
+                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.stake), 0)) }} XN
                         </div>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                     <div class="col-4 f-row-label">{{ $t('view_validator_detail.amount_delegated') }}</div>
                     <div class="col">
                         <div v-show="'delegatedMe' in cStaker">
-                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.delegatedMe), 0)) }} FTM
+                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.delegatedMe), 0)) }} XN
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                     <div class="col-4 f-row-label">{{ $t('view_validator_detail.staking_total') }}</div>
                     <div class="col">
                         <div v-show="'totalStake' in cStaker">
-                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.totalStake), 0)) }} FTM
+                            {{ formatNumberByLocale(numToFixed(WEIToFTM(cStaker.totalStake), 0)) }} XN
                         </div>
                     </div>
                 </div>

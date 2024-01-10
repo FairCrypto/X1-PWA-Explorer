@@ -1,82 +1,17 @@
 const appConfig = {
     // app title
-    name: "Fantom Explorer",
+    name: "X1 Explorer",
     // app description
     description:
-        "Fantom Explorer allows you to explore and search the Fantom blockchain for transactions, addresses and blocks",
+        "X1 Explorer allows you to explore and search the X1 blockchain for transactions, addresses and blocks",
     // app keywords
-    keywords: "fantom, explorer, search, blockchain, crypto, currency",
+    keywords: "x1, explorer, search, blockchain, crypto, currency",
     // apollo client settings
     apollo: {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi-nodea.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeb.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodec.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-noded.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodee.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodef.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeg.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodeh.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodei.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodej.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodek.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodel.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-nodem.fantom.network/',
-                // for subscriptions
-                ws: '',
-            },
-            {
-                http: 'https://xapi-noden.fantom.network/',
+                http: 'https://graphql-api.x1-testnet.infrafc.org/graphql',
                 // for subscriptions
                 ws: '',
             },
@@ -93,7 +28,7 @@ const appConfig = {
         // list of providers. if one of them is unavailable, another is randomly picked
         providers: [
             {
-                http: 'https://xapi.testnet.fantom.network/api',
+                http: 'https://graphql-api.x1-testnet.infrafc.org/graphql',
                 // for subscriptions
                 ws: '',
             },
@@ -104,7 +39,7 @@ const appConfig = {
     // pwa settings
     pwa: {
         // name used in pwa manifest
-        name: "Fantom Explorer"
+        name: "X1 Explorer"
     },
     // default options for production build
     build: {
@@ -117,7 +52,7 @@ const appConfig = {
     flags: {
         networkNodesMap: false,
         rewardsEstimation: true,
-        ftmVault: true,
+        ftmVault: false,
         dailyBlocks: true,
         dailyTxFees: true,
     },

@@ -1,7 +1,7 @@
 <template>
 <div class="rewardsestimation">
     <div class="rewardsestimation_row">
-        <h3 id="rew_est_sl1">{{ $t('rewards_estimation.your_stake') }} <span class="rewardsestimation_highlighted">{{ formatNumberByLocale(stake, 0) }} FTM</span></h3>
+        <h3 id="rew_est_sl1">{{ $t('rewards_estimation.your_stake') }} <span class="rewardsestimation_highlighted">{{ formatNumberByLocale(stake, 0) }} XN</span></h3>
         <FSlider
             name="stake"
             v-model="stake"
@@ -30,7 +30,7 @@
         <div>
             <h3>{{ $t('rewards_estimation.estimated_rewards') }}</h3>
             <div class="rewardsestimation_highlighted">
-                <template v-if="yApr > 0">{{ formatNumberByLocale(rewards, 0) }} FTM</template>
+                <template v-if="yApr > 0">{{ formatNumberByLocale(rewards, 0) }} XN</template>
                 <template v-else>-</template>
             </div>
         </div>
