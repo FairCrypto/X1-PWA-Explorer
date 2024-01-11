@@ -21,7 +21,7 @@ module.exports = {
         name: appConfig.pwa.name,
         themeColor: '#1969ff',
         msTileColor: '#1969ff',
-        assetsVersion: '4',
+        assetsVersion: '5',
         manifestOptions: {
             background_color: '#1969ff'
         },

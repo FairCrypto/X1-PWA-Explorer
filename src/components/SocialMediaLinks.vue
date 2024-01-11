@@ -7,12 +7,6 @@
             </a>
         </li>
         <li>
-            <a href="https://discord.com/invite/rcAhrKWJb6" target="_blank" rel="nofollow" title="X1 on Discord">
-                <icon data="@/assets/svg/social-media2/discord.svg" width="32" height="32"></icon>
-                <span class="socialmedialinks_label">Discord</span>
-            </a>
-        </li>
-        <li>
             <a href="https://t.me/XENCryptoTalk" target="_blank" rel="nofollow" title="X1 on Telegram">
                 <icon data="@/assets/svg/social-media2/telegram.svg" width="32" height="32"></icon>
                 <span class="socialmedialinks_label">Telegram</span>
