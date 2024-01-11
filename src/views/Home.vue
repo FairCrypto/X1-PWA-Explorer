@@ -139,10 +139,7 @@
                     <h2 class="h3 home_h2">
                         {{ $t('view_home.total_ftm_burned') }}
                         <f-info show-on-hover button-tooltip="" window-class="light" window-style="max-width: 350px;">
-                            <span class="number">70%</span> of the fees paid to the network
-                            are allocated to validators; <span class="number">15%</span> supports the <strong>GasM</strong> program,
-                            <span class="number">10%</span> bolsters the <strong>Ecosystem Vault</strong>, and the remaining
-                            <span class="number">5%</span> is permanently burnt.
+                            All transaction fees are burned per EIP1559.
                         </f-info>
                     </h2>
                     <BurnedFTM />
