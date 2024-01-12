@@ -50,7 +50,7 @@ const appConfig = {
     downtimeThreshold: 10,
     // feature flags
     flags: {
-        networkNodesMap: false,
+        networkNodesMap: true,
         rewardsEstimation: true,
         ftmVault: false,
         dailyBlocks: true,
