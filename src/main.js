@@ -16,6 +16,10 @@ import { DeFi } from './plugins/defi/defi.js';
 import { FFetch } from "@/plugins/ffetch.js";
 import {SFCConfig} from "@/utils/SFCConfig.js";
 
+if (window.location.hostname === 'pwa-explorer.x1-testnet.infrafc.org') {
+    window.location.hostname = 'pwa-explorer.x1-testnet.xen.network';
+}
+
 Vue.config.productionTip = false;
 
 SFCConfig.setApolloClient(fantomApolloClient);

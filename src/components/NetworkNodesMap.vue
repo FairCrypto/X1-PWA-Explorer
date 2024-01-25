@@ -1,6 +1,6 @@
 <template>
     <div class="networknodesmap">
-        <h3><span class="number">{{ totalCount === 0 ? '-' : totalCount }}</span> <span class="nodes_label">Nodes</span></h3>
+<!--        <h3><span class="number">{{ totalCount === 0 ? '-' : totalCount }}</span> <span class="nodes_label">Nodes</span></h3>-->
         <WorldMap :markers="cNetworkNodes">
             <template #marker="{ marker:node }">
                 <div class="networknodesmap_node" :style="getNodeStyle(node)">

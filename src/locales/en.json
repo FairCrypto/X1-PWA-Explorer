@@ -235,7 +235,7 @@
         "amount_delegated": "Amount delegated",
         "staking_total": "Staking total",
         "active": "Active",
-        "online": "Online",
+        "online": "Voting",
         "downtime": "Downtime",
         "locked_until": "Locked Until",
         "lock_days": "Lock (Days)",
